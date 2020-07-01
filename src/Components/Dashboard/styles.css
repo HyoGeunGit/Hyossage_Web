@@ -1,0 +1,70 @@
+.listItem {
+    margin: auto;
+    width: calc(100%);
+    min-height: 150px;
+    -webkit-box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.46);
+    box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.46);
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+.inputPhoneNum {
+    position: absolute;
+    left: 0;
+    top: 0;    
+    width: calc(100% - 4.5rem);
+    padding-left: 10px;
+    font-size: 1.5rem;
+    height: 3.2rem;
+    padding-right: 2.7rem;
+}
+.listItem .phoneNum {
+    margin-bottom: 1rem;
+    margin-left: .38rem;
+    text-align: left;
+    word-break:  break-word;
+    font-size: 1.8rem;
+}
+.inputBox {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    position: relative; 
+    height: 3.2rem;
+}
+.submitBtn {
+    position: absolute;
+    width: 4.5rem;
+    font-size: 1.5rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    cursor: pointer;
+    border-left: 1px solid #aaa;
+    background-color: #aaa;
+    top: 0;
+    right: 0;
+}
+.xBtn {
+    width: 3rem;
+    font-size: 1.5rem;
+    height: 3.2rem;
+    position: absolute;
+    right: 4.5rem;
+    top: 0;
+    line-height: 3.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.listItem .itemData {
+    display: block;
+    text-align: left;
+    font-size: 1.45rem;
+    background-color: #fff;
+    white-space: pre-wrap;
+    word-break:  break-word;
+    width: 100%;
+    border-radius: 4px;
+}
