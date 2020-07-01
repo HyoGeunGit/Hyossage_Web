@@ -16,11 +16,11 @@ class NavigationBar extends React.Component {
     const userLinks = (
       <ul className="nav navbar-nav navbar-right">
         <li>
-         
+
           <Link to="#" className='pull-right' onClick={this.logout.bind(this)}>
             로그아웃
           </Link>
-          <span className='welcome'>Welcome <b>{userName}</b></span>
+          <Link className='welcome' to="/dashboard">Welcome <b>{userName}</b></Link>
         </li>
       </ul>
     );
